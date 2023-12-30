@@ -5,8 +5,8 @@ var naruto ={
       taijutsu:60,
       ninjutsu:70,
       chakra:100
-     } 
-  }
+     }
+  };
   
   var sasuke={
     nome:"Sasuke",
@@ -16,7 +16,7 @@ var naruto ={
       ninjutsu:80,
       chakra:80
     }
-  }
+  };
   
   var sakura ={
     nome:"Sakura",
@@ -26,7 +26,7 @@ var naruto ={
       ninjutsu:90,
       chakra:60
     }
-  } 
+  }; 
   
   var kakashi ={
     nome:"Kakashi",
@@ -36,7 +36,7 @@ var naruto ={
       ninjutsu:90,
       chakra:50
     }
-  }
+  };
   
   var gaara ={
     nome:"Gaara",
@@ -46,7 +46,7 @@ var naruto ={
       ninjutsu:85,
       chakra:100
     }
-  }
+  };
    
   var neji ={
     nome:"Neji",
@@ -56,7 +56,7 @@ var naruto ={
       ninjutsu:80,
       chakra:80
     }
-  }
+  };
   
   var tsunade ={
     nome:"Tsunade",
@@ -66,7 +66,7 @@ var naruto ={
       ninjutsu:100,
       chakra:100
     }
-  }
+  };
   
   var jiraya ={
     nome:"Jiraya", 
@@ -76,7 +76,7 @@ var naruto ={
       ninjutsu:95,
       chakra:95
     }
-  }
+  };
   
   var orochimaru ={
     nome:"Orochimaru",
@@ -86,7 +86,7 @@ var naruto ={
       ninjutsu:100,
       chakra:95
     }
-  }
+  };
   
   var hiruzen ={
     nome:"Hiruzen",
@@ -96,7 +96,7 @@ var naruto ={
       ninjutsu:95,
       chakra:85
     }
-  }
+  };
   
   var rockLee ={
     nome:"Rock Lee",
@@ -106,7 +106,7 @@ var naruto ={
       ninjutsu:20,
       chakra:10
     }
-  }
+  };
   
   var mightGuy ={
     nome:"Might Guy",
