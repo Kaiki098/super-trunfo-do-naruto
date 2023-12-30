@@ -116,21 +116,22 @@ var naruto ={
       ninjutsu:40,
       chakra:20
     }
-  }
-  var superTrunfo
-  var cartaMaquina
-  var cartaJogador
-  var ninja = [naruto, sasuke, sakura, kakashi, gaara, neji, tsunade, jiraya, orochimaru, hiruzen, rockLee, mightGuy]
+  };
+
+  var superTrunfo;
+  var cartaMaquina;
+  var cartaJogador;
+  var ninja = [naruto, sasuke, sakura, kakashi, gaara, neji, tsunade, jiraya, orochimaru, hiruzen, rockLee, mightGuy];
    
-  var pontosJogador = 0
-  var pontosMaquina = 0
+  var pontosJogador = 0;
+  var pontosMaquina = 0;
   
-  atualizaPlacar()
-  atualizaQuantidadesDeCartas()
+  atualizaPlacar();
+  atualizaQuantidadesDeCartas();
   
   function atualizaQuantidadesDeCartas(){
-    var divQuantidadeCartas = document.getElementById('quantidade-cartas')
-    var html = "Quantidade de cartas no jogo: " + ninja.length
+    var divQuantidadeCartas = document.getElementById('quantidade-cartas');
+    var html = "Quantidade de cartas no jogo: " + ninja.length;
     
     divQuantidadeCartas.innerHTML = html
   }
