@@ -67,7 +67,7 @@ var naruto ={
       chakra:100
     }
   };
-  
+
   var jiraya ={
     nome:"Jiraya", 
     imagem: "https://www.einerd.com.br/wp-content/uploads/2019/10/Jiraiya-Naruto-capa.png",
