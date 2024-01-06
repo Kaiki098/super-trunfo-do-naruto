@@ -1,6 +1,6 @@
 let naruto = {
 	nome: 'Naruto',
-	imagem: 'https://f.i.uol.com.br/fotografia/2021/02/18/1613659263602e7c7f84084_1613659263_3x2_md.jpg',
+	imagem: 'assets/naruto.jpg',
 	atributos: {
 		taijutsu: 60,
 		ninjutsu: 70,
@@ -10,7 +10,7 @@ let naruto = {
 
 let sasuke = {
 	nome: 'Sasuke',
-	imagem: 'https://animanganaruto77.files.wordpress.com/2009/08/sasukeuchiha.jpg?w=584',
+	imagem: 'assets/sasuke.jpg',
 	atributos: {
 		taijutsu: 80,
 		ninjutsu: 80,
@@ -20,7 +20,7 @@ let sasuke = {
 
 let sakura = {
 	nome: 'Sakura',
-	imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjB9Z_foFDxIX7qsIvXEzO3qKe1tvxyjV1mg&usqp=CAU',
+	imagem: 'assets/sakura.jpg',
 	atributos: {
 		taijutsu: 60,
 		ninjutsu: 90,
@@ -30,7 +30,7 @@ let sakura = {
 
 let kakashi = {
 	nome: 'Kakashi',
-	imagem: 'https://img.quizur.com/f/img5cd4d050481100.63727352.jpeg?lastEdited=1557450857',
+	imagem: 'assets/kakashi.jpg',
 	atributos: {
 		taijutsu: 90,
 		ninjutsu: 90,
@@ -40,7 +40,7 @@ let kakashi = {
 
 let gaara = {
 	nome: 'Gaara',
-	imagem: 'https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/09/legiao_w8vr9bf7zBIa.png.jpeg',
+	imagem: 'assets/gaara.jpg',
 	atributos: {
 		taijutsu: 80,
 		ninjutsu: 85,
@@ -50,7 +50,7 @@ let gaara = {
 
 let neji = {
 	nome: 'Neji',
-	imagem: 'https://i.redd.it/nr5brf71qsh51.png',
+	imagem: 'assets/neji.jpg',
 	atributos: {
 		taijutsu: 85,
 		ninjutsu: 80,
@@ -60,7 +60,7 @@ let neji = {
 
 let tsunade = {
 	nome: 'Tsunade',
-	imagem: 'http://pm1.narvii.com/6800/d407cb1afdb31a36c7c31fb36da6c01c813eae0bv2_00.jpg',
+	imagem: 'assets/tsunade.jpg',
 	atributos: {
 		taijutsu: 90,
 		ninjutsu: 100,
@@ -70,7 +70,7 @@ let tsunade = {
 
 let jiraya = {
 	nome: 'Jiraya',
-	imagem: 'https://www.einerd.com.br/wp-content/uploads/2019/10/Jiraiya-Naruto-capa.png',
+	imagem: 'assets/jiraya.jpg',
 	atributos: {
 		taijutsu: 95,
 		ninjutsu: 95,
@@ -80,7 +80,7 @@ let jiraya = {
 
 let orochimaru = {
 	nome: 'Orochimaru',
-	imagem: 'https://www.comboinfinito.com.br/principal/wp-content/uploads/2018/09/orochimaru-boruto.jpg',
+	imagem: 'assets/orochimaru.jpg',
 	atributos: {
 		taijutsu: 90,
 		ninjutsu: 100,
@@ -90,7 +90,7 @@ let orochimaru = {
 
 let hiruzen = {
 	nome: 'Hiruzen',
-	imagem: 'https://i1.wp.com/www.breaktudo.com/wp-content/uploads/2019/11/sarutobi-de-naruto.jpg?fit=583%2C460&ssl=1',
+	imagem: 'assets/hiruzen.jpg',
 	atributos: {
 		taijutsu: 100,
 		ninjutsu: 95,
@@ -100,7 +100,7 @@ let hiruzen = {
 
 let rockLee = {
 	nome: 'Rock Lee',
-	imagem: 'https://pm1.narvii.com/6324/db612cedb6a3a1fdc0527a52711c2bf722de2f79_hq.jpg',
+	imagem: 'assets/rockLee.jpg',
 	atributos: {
 		taijutsu: 95,
 		ninjutsu: 20,
@@ -110,7 +110,7 @@ let rockLee = {
 
 let mightGuy = {
 	nome: 'Might Guy',
-	imagem: 'https://criticalhits.com.br/wp-content/uploads/2019/02/Might-Guy.jpg',
+	imagem: 'assets/mightGuy.jpg',
 	atributos: {
 		taijutsu: 100,
 		ninjutsu: 40,
@@ -158,7 +158,7 @@ function sortearCarta() {
 
 function exibeCartaJogador() {
 	let divCartaJogador = document.getElementById('carta-jogador');
-	let moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+	let moldura = '<img src="assets/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
 	divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`;
 	let nome = `<p class='carta-subtitle'>${cartaJogador.nome}</p>`;
 	let opcoesTexto = '';
@@ -228,7 +228,7 @@ function proximaRodada() {
 
 function exibeCartaMaquina() {
 	let divCartaMaquina = document.getElementById('carta-maquina');
-	let moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+	let moldura = '<img src="assets/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
 	divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.imagem})`;
 	let nome = `<p class='carta-subtitle'>${cartaMaquina.nome}</p>`;
 	let opcoesTexto = '';
